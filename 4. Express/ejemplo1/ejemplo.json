@@ -1,0 +1,7 @@
+{
+  "nombre": "Juan Camaney",
+  "edad": 21,
+  "musica": ["ranchera", "reguetón", "clásica"],
+  "casado": false,
+  "conyuge": null
+}
