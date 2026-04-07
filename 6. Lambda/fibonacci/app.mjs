@@ -28,6 +28,11 @@ app.get('/fibonacci/:num', (req, res) => {
   }
 });
 
-app.listen(port, () => {
-  console.log(`Server listening at http://${ ipAddress }:${ port }`);
-});
+if (process.env.AWS_LAMBDA_FUNCTION_NAME === undefined) {
+  app.listen(port, () => {
+    console.log(
+      `Server listening at http://${ ipAddress }:${ port }`);
+  });
+}
+
+export default app;
