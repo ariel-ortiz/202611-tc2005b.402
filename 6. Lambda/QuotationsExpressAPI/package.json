@@ -1,0 +1,8 @@
+{
+  "dependencies": {
+    "@codegenie/serverless-express": "^4.17.1",
+    "cors": "^2.8.6",
+    "express": "^5.2.1",
+    "mysql2": "^3.20.0"
+  }
+}
