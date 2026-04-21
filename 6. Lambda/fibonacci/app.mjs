@@ -1,8 +1,10 @@
 // Ejemplo con express
 
 import express from 'express';
+import cors from 'cors';
 
 const app = express();
+app.use(cors());
 const port = process.env.PORT ?? '8080';
 const ipAddress = process.env.C9_HOSTNAME ?? 'localhost';
 
