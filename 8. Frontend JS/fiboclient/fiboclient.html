@@ -4,21 +4,27 @@
     <meta charset="utf-8">
     <title>Secuencia de Fibonacci</title>
     <script type="module" src="javascript/fiboclient.mjs"></script>
+    <link rel="stylesheet" href="css/fibostyle.css">
+    <style>
+      p {
+        background-color: pink;
+      }
+    </style>
   </head>
   <body>
-    <h1>
+    <h1 class="ariel" style="color: red;">
       Secuencia de Fibonacci
     </h1>
     <form>
       <p>
-        <label for="n">Ingresa un número entero: </label>
+        <label for="n" class="ariel">Ingresa un número entero: </label>
         <input id="n" type="number">
       </p>
       <p>
         <button id="fibo-button" type="button" >Calcular Fibonacci</button>
       </p>
     </form>
-    <p id="salida">
+    <p id="salida" class="ariel">
     </p>
   </body>
 </html>

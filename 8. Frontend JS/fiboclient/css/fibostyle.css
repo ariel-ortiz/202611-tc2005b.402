@@ -1,0 +1,15 @@
+body {
+  background-color: yellow;
+  font-family: sans-serif;
+}
+
+#salida {
+  color: green;
+}
+
+.ariel {
+  font-style: italic;
+  border: dashed 5px black;
+  padding: 30px;
+  margin: 50px;
+}
