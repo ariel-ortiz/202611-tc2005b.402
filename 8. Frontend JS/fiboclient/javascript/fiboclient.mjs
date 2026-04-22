@@ -39,7 +39,12 @@ async function obtenFibonacci() {
   } catch (err) {
     salida.innerText = `Error: ${err.message}`;
   }
-
 }
 
 fiboButton.addEventListener('click', obtenFibonacci);
+n.addEventListener('keydown', event => {
+  if (event.key === 'Enter') {
+    event.preventDefault();
+    obtenFibonacci();
+  }
+});
